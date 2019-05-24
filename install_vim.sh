@@ -1,4 +1,7 @@
 #!/bin/bash
+echo -e "\e[31m THIS WILL OVERWRITE YOUR .VIMRC AND REMOVE YOUR .VIM FOLDER!!!\e[0m"  
+read -p "Press enter to continue.... "
+
 rm -rf ~/.vimrc
 rm -rf ~/.vim
 mkdir -p ~/.vim/autoload ~/.vim/bundle

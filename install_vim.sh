@@ -9,11 +9,6 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 cp vimrc $HOME/.vimrc
 
-module purge
-module load gcc/8.2.0
-module load cmake/3.4.3
-module list
-
 export CC=gcc 
 export CXX=g++
 export VERBOSE=1 
